@@ -18,6 +18,7 @@ mongoose.connect("mongodb+srv://boskiraptor2:oFocmXHWMq3zDsjo@cluster0.1nr7u.mon
     .catch((err) => console.log("MongoDB connection error:", err));
 
 app.use(express.json())
+const authRoutes = require("./api/auth")
 
 cloudinary.v2.config({
   cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
