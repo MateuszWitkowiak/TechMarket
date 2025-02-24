@@ -25,6 +25,7 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-toastify": "^11.0.3",
+    "react-top-loading-bar": "^3.0.2",
     "uuid": "^11.1.0",
     "yup": "^1.6.1"
   },
